@@ -2,7 +2,7 @@ const words = [];
 
 async function loadWords() {
     try {
-        const response = await fetch('./words.txt'); //haald de woorden uit een woordenlijst
+        const response = await fetch('./words.txt'); //haalt de woorden uit een woordenlijst
         const text = await response.text();
         words.push(...text.split('\n').map(word => word.trim()).filter(word => word));
         createDiv(); // Begint het spel alleen wanneer de woorden klaar zijn
