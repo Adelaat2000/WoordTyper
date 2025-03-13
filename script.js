@@ -32,6 +32,11 @@ function createDiv() {
     enemyImage.style.width = '200px';
     enemyImage.style.height = '200px';
 
+    let  characterImage = document.createElement('img');
+    characterImage.src = "./images/enemy.gif";
+    characterImage.style.width = '200px';
+    characterImage.style.height = '200px';
+
     div.setAttribute("id", `enemyContainer${enemyCounter}`);
     div.setAttribute("class", "enemyContainers");
     enemyWordSpan.setAttribute("id", `enemyWordSpan${enemyCounter}`);
