@@ -37,10 +37,10 @@ body {
 }
 
 #characterImage {
-    width: 15vw;
-    height: auto;
-    
-}
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
 
 
 .enemyContainers {
